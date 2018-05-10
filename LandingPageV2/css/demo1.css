@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700');
+
+/* Color schemes */
+.demo-1 {
+	--color-text: #545250;
+	--color-bg: #fc9d62;
+	--color-link: #ef5b00;
+	--color-link-hover: #ff6a00;
+	--color-info: #fff;
+	--color-main-text: #595756;
+	--color-scroll-text: #efedeb;
+	--font-scroll-text: 'Roboto Mono', monospace;
+	--fontsize-scroll-text: 8vw;
+}
+
+.icone {
+	height: 80px;
+}
+
+.content__main {
+	color: var(--color-main-text);
+}
+
+.js .content__text::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	height: 69%;
+	bottom: 0;
+	width: calc(6vmax - 1.5rem);
+	background: var(--color-link);
+}
+
+.codrops-header__title {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+#left {
+	text-align: left;
+}
+
+#img4 {
+	width: 2200px;
+}
+
+#email {
+	border: 0px;
+	background-color: inherit;
+	border-bottom: 5px solid grey;
+	opacity: 0.5;
+	color: #545250;
+}
+
+input:focus {
+box-shadow:none;
+border:0 none;
+outline:0;
+}
+
+.envoyer {
+	border: 0px;
+	background-color: inherit;
+}
+
+.logo {
+	height: 200px;
+	margin-top: -100px;
+}
+
+.container_logo {
+	display: flex;
+	justify-content: center;
+}
+
+#right {
+	display: flex;
+	justify-content: flex-end;
+}
