@@ -1,67 +1,64 @@
-# Week n°6 on Day n°1/2 - THP by Team BDX - @massimo - THPBrite-like v2.0
+# Week n°6 on Day n°4 - THP - Team BDX - (kings-)Landing Page of The Hacking Project
 
 ## Projet du jour :
 
-Le projet du jour consiste a construire une application compatible Heroku, qui permet de gérer des évènements sur une plateforme à la eventbrite-like. Cette fois-ci, il faut utiliser les gems "devise" (gestion de sessions et utilisateurs), et "Stripe" (gestion de paiements).
+  Le projet du jour consiste a construire une landing page fonctionnelle en production faisant la promotion de The Hacking Project. Pour cela, nous nous sommes déployés en méthode dite "Agile" (oui, à deux ...) et également en méthode dite "flex" (du à nos nombreuses années passées à faire du twirling-bâton). Aujourd'hui, 12 litres de café ont été engloutis, 4 stages en asile psychiatrique nous ont été offerts par les voisins ainsi que notre mentor a su nous motiver comme jamais avec des vidéos de Q...ualité :D. L'équipe est composée de 2 personnes (oui, à plus de un, c'est une équipe :D) : Mister Bab et Seur Massimo.
 
 ## Pré-requis et installation :
 
 1 - Veuillez svp, vous relever de votre PLS.
 
-2 - Veuillez cloner ce repo sur votre machine avec la commande suivante (le dossier créé s'appelera "W6D2_TeamBDX_2_THPBrite-like") :
-
+2 - Pour le fun, vous pouvez cloner ce repo sur votre machine avec la commande suivante (le dossier créé s'appelera "W6D4_TeamBDX_LandingPage") :
 ```
-  $ git clone https://github.com/iMassim0/W6D2_TeamBDX_2_THPBrite-like
-```
-
-3 - Se rendre dans le dossier souhaité, et effectuer la commande suivante pour initialiser le fonctionnement :
-
-```
-  $ bundle install --without production && rails db:migrate
+  $ git clone https://github.com/iMassim0/W6D4_TeamBDX_LandingPage
 ```
 
-## Fonctionnement de l'application :
+3 - Se rendre dans le dossier et enjoy !
 
-Soit en la lançant en local sur votre machine, pour cela, lancez depuis votre terminal, lorsque vous êtes dans le dossier courant :
+## Objectif & Volontés :
 
-```
-  $ rails server
-```
+### Volontés de l'équipe :
 
-Puis vous rendre à l'adresse suivante :
-```
-  @ http://localhost:3000/
-```
+  D'après le sujet, nous avons souhaité avoir une landing page simple, efficace, stylée et facile à dérouler. Pour cela, nous avons utilisé une méthode js sexy trouvée sur les internets mondiaux. Pour pouvoir mesurer l'audience et l'efficacité de cette landing page, nous avons implanter en son sein le service Google Analytics. Notament, nous avons mesuré une efficacité ou nous sommes non peu-fier d'afficher 20 visites sur un créneau d'une après-midi, et ce depuis le Canada, l'espagne, le Royaume-Uni, mais surtout le Pérou (#redirections). Egalement, une redirection de souscription à une newsletter à été créée, pour ne pas perdre de précieux futurs moussaillons.
 
-Ou alors, vous pouvez directement vous rendre à l'adresse déployée ici :
-```
-  @ https://damp-woodland-88264.herokuapp.com/
-```
+  Pour résumer :
 
-**NOTA : $ = terminal || > = console rails || @ = internet browser**
+    - Versionning : Git & gitHub
+    - Structure   : HTML classique avec JS/CSS/IMG associés (Rails semaine pro OKLM)
+    - EDI         : Atom
+    - Hébergeur   : gitHub Pages
+    - Services    : Google Analytics && MailChimp && Balises Open Graph
 
-## Conditions de test de l'application pour les corrections
+### Déroulement :
 
-Pour faciliter la correction, je me suis arrêté pour cause de PLS d'OR 2018 après 2 jours intenses avant le déploiement de la gem "stripe". L'affichage des éléments où l'utilisateur en cours participe aura eu raison de moi ... Merci pour la correction ;).
+Pour le sujet du jour, nous avons procéder de cette manière :
 
-#Désopadéso - #LaMandàMandit - #Maman - #KeskiaKeskiaToiTuMengraines?
+  9h - 10h      : Café - Briefing - Café - Organisation de la journée - Café - Café
 
-Ne pas hésiter à vous rendre dans la console rails pour créer des instances de "User" et de "Event" dans la console :
-```
-  $ rails console
-```
+  10h - 12h30   : Recherches && lectures && documentations && choix des outils/design/hébergeur/etc.
 
-## Pré-requis
+  12h30 - 13h   : Déjeuner expéditif à base de carottes
 
-**Ruby 2.5.1**
+  13h - 16h30   : Lancement des hostilités et rédaction pure
 
-**Bundle 1.16.1**
+     16h32      : Pétage de plomb et choix d'un autre désign #désoPaDéso
+
+  16h33 - 19h30 : Développement && code && implantation && déploiement && peaufinage
+
+  19h30 - 20h00 : Last push && finalisation du joli Readme des familles
+
+### Focus sur Google Analytics : Révélation de la journée
+
+  Quel outil fantastique qu'est Google Analytics ! Révélation pour les bons vieux acolytes bab&max ... Petit aperçu du panneau de contrôle de l'application :
+  <p align="center">
+    <img src="analytics2.png"/>
+  </p>
 
 ## Contributeur
 
-@massimo - Maxime FLEURY
+@bab - Baptiste ROGEON
 
-*Avec l'aide précieuse de M. @bab*
+@massimo - Maxime FLEURY
 
 <p align="center">
   <img src="THP_BDX.png"/>
