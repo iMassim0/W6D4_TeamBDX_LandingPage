@@ -56,7 +56,7 @@ Pour le sujet du jour, nous avons procéder de cette manière :
 
 ## Contributeurs
 
-<p align="center">@bab - Baptiste ROGEON         @massimo - Maxime FLEURY</p>
+<p align="center">@bab - Baptiste ROGEON  &&  @massimo - Maxime FLEURY</p>
 
 <p align="center">
   <img src="THP_BDX.png"/>
