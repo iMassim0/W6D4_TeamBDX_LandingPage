@@ -54,6 +54,14 @@ Pour le sujet du jour, nous avons procéder de cette manière :
     <img src="analytics2.png"/>
   </p>
 
+### Lien de production
+
+  Ah, et voici le lien du site en production :
+```
+  https://imassim0.github.io/W6D4_TeamBDX_LandingPage/
+```
+  
+
 ## Contributeurs
 
 <p align="center">@bab - Baptiste ROGEON  &&  @massimo - Maxime FLEURY</p>
