@@ -41,7 +41,7 @@ Pour le sujet du jour, nous avons procéder de cette manière :
 
   13h - 16h30   : Lancement des hostilités et rédaction pure
 
-     16h32      : Pétage de plomb et choix d'un autre désign #désoPaDéso
+  16h32         : Pétage de plomb et choix d'un autre désign #désoPaDéso
 
   16h33 - 19h30 : Développement && code && implantation && déploiement && peaufinage
 
@@ -54,11 +54,9 @@ Pour le sujet du jour, nous avons procéder de cette manière :
     <img src="analytics2.png"/>
   </p>
 
-## Contributeur
+## Contributeurs
 
-@bab - Baptiste ROGEON
-
-@massimo - Maxime FLEURY
+<p align="center">@bab - Baptiste ROGEON         @massimo - Maxime FLEURY</p>
 
 <p align="center">
   <img src="THP_BDX.png"/>
